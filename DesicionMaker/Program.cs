@@ -24,11 +24,6 @@ namespace DesicionMaker
         {
             List<string> options = InputDecisions();
 
-            for (int i = 0; i < options.Count; i++)     // DEBUG: Write the contents of the options list
-            {
-                Console.WriteLine(options[i]);
-            }
-
             if (options.Count < 2)      // Make sure there are at least two options in the list
             {
                 Console.WriteLine("You must enter at least two options!");
